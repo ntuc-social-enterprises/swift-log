@@ -7,4 +7,6 @@ DerivedData
 
 .SourceKitten/
 docs/
+
+.*.sw?
 Carthage
