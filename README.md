@@ -54,6 +54,7 @@ LoggingSystem.bootstrap(StreamLogHandler.standardError)
 
 For further information, please check the [API documentation][api-docs].
 
+<a name="backends"></a>
 #### Selecting a logging backend implementation (applications only)
 
 As the API has just launched, not many implementations exist yet. If you are interested in implementing one see the "Implementation considerations" section below explaining how to do so. List of existing SwiftLog API compatible libraries:
@@ -68,6 +69,9 @@ As the API has just launched, not many implementations exist yet. If you are int
 | [vapor/console-kit](https://github.com/vapor/console-kit/) | print log messages to a terminal with stylized ([ANSI](https://en.wikipedia.org/wiki/ANSI_escape_code)) output |
 | [neallester/swift-log-testing](https://github.com/neallester/swift-log-testing) | provides access to log messages for use in assertions (within test targets) | 
 | [wlisac/swift-log-slack](https://github.com/wlisac/swift-log-slack)  | a logging backend that sends critical log messages to Slack |
+| [NSHipster/swift-log-github-actions](https://github.com/NSHipster/swift-log-github-actions) | a logging backend that translates logging messages into [workflow commands for GitHub Actions](https://help.github.com/en/actions/reference/workflow-commands-for-github-actions). |
+| [stevapple/swift-log-telegram](https://github.com/stevapple/swift-log-telegram) | a logging backend that sends log messages to any Telegram chat (Inspired by and forked from [wlisac/swift-log-slack](https://github.com/wlisac/swift-log-slack)) |
+| [jagreenwood/swift-log-datadog](https://github.com/jagreenwood/swift-log-datadog)  | a logging backend which sends log messages to the [Datadog](https://www.datadoghq.com/log-management/) log management service |
 | Your library? | [Get in touch!](https://forums.swift.org/c/server) |
 
 ## What is an API package?
